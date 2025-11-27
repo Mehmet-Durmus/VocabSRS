@@ -11,9 +11,7 @@ namespace VocabSRS.Core.Entities
         public string WordText { get; set; }
 
         // Relations
-        public int? KnownWordId { get; set; }
         public KnownWord? KnownWord { get; set; }
-        public int? StudiedWordId { get; set; }
         public StudiedWord? StudiedWord { get; set; }
     }
 }
